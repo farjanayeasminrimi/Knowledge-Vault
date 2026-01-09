@@ -1,149 +1,146 @@
 <!DOCTYPE html>
 <html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Knowledge Vault</title>
+  <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
+  <link rel="stylesheet" href="./styles/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link
+    href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
+    rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+    integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+
+<body>
+
   <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Knowledge Vault</title>
-    <link rel="shortcut icon" href="./images/favicon.svg" type="image/x-icon" />
-    <link rel="stylesheet" href="./styles/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap"
-      rel="stylesheet"
-    />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
-      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-  </head>
-  <body>
-    <head>
-      <nav>
-        <div class="nav-logo">
-          <img src="./images/logo-navbar.png" alt="This is navbar logo" />
-        </div>
-        <ul class="nav-menu">
-          <li><a href="">Features</a></li>
-          <li><a href="">How It Works</a></li>
-          <li><a href="">Why It's Different</a></li>
-        </ul>
-        <button class="btn">Get Early Access</button>
-      </nav>
+    <nav>
+      <div class="nav-logo">
+        <img src="./images/logo-navbar.png" alt="This is navbar logo" />
+      </div>
+      <ul class="nav-menu">
+        <li><a href="">Features</a></li>
+        <li><a href="">How It Works</a></li>
+        <li><a href="">Why It's Different</a></li>
+      </ul>
+      <button class="btn">Get Early Access</button>
+    </nav>
 
-      <section class="hero-section">
-        <div class="hero-container">
-          <button class="access-btn btn-combind">
-            <i class="fa-solid fa-spinner"></i> Early Access Now Open
+    <section class="hero-section">
+      <div class="hero-container">
+        <button class="access-btn btn-combind">
+          <i class="fa-solid fa-spinner"></i> Early Access Now Open
+        </button>
+        <h1 class="hero-title">
+          Structured thinking, <br />
+          <span>not just note-taking.</span>
+        </h1>
+        <p class="hero-details">
+          A private space to store notes, links, and learning summaries —
+          designed to help you think clearly, connect ideas, and turn learning
+          into long-term knowledge.
+        </p>
+        <div class="btn-container">
+          <button class="btn start-btn">
+            Start Building Your Vault &nbsp;
+            <i class="fa-solid fa-arrow-right"></i>
           </button>
-          <h1 class="hero-title">
-            Structured thinking, <br />
-            <span>not just note-taking.</span>
-          </h1>
-          <p class="hero-details">
-            A private space to store notes, links, and learning summaries —
-            designed to help you think clearly, connect ideas, and turn learning
-            into long-term knowledge.
+          <button class="btn-combind see-btn">
+            <i class="fa-solid fa-play"></i>&nbsp; See How It Works
+          </button>
+        </div>
+      </div>
+    </section>
+  </head>
+  <main>
+    <!-- Main Content Here -->
+    <section class="note-section">
+      <div class="note-discription">
+        <h2 class="title">Notes don't fail, Structure does.</h2>
+        <p class="details">
+          You're not bad at learning. Your tools just weren't built for how
+          knowledge actually works.
+        </p>
+      </div>
+      <div class="note-card-container">
+        <div class="note-card">
+          <img src="./images/Vector.png" alt="This is a vector" />
+          <h3>Scattered notes</h3>
+          <p>Your ideas live in 10 different apps, none of them connected.</p>
+        </div>
+        <div class="note-card">
+          <img src="./images/Bookmarks.png" alt="This is a bookmark" />
+          <h3>Bookmark overload</h3>
+          <p>Hundreds of saved links you'll never revisit or remember.</p>
+        </div>
+        <div class="note-card">
+          <img src="./images/Brain.png" alt="This is a Brain" />
+          <h3>No idea connections</h3>
+          <p>
+            Insights stay isolated, never building into bigger understanding.
           </p>
-          <div class="btn-container">
-            <button class="btn start-btn">
-              Start Building Your Vault &nbsp;
-              <i class="fa-solid fa-arrow-right"></i>
-            </button>
-            <button class="btn-combind see-btn">
-              <i class="fa-solid fa-play"></i>&nbsp; See How It Works
-            </button>
-          </div>
         </div>
-      </section>
-    </head>
-    <main>
-      <!-- Main Content Here -->
-      <section class="note-section">
-        <div class="note-discription">
-          <h2 class="title">Notes don't fail, Structure does.</h2>
-          <p class="details">
-            You're not bad at learning. Your tools just weren't built for how
-            knowledge actually works.
-          </p>
+        <div class="note-card">
+          <img src="./images/Info.png" alt="This is a vector" />
+          <h3>Forgetting what you learned</h3>
+          <p>Knowledge fades because there's no system to retain it.</p>
         </div>
-        <div class="note-card-container">
-          <div class="note-card">
-            <img src="./images/Vector.png" alt="This is a vector" />
-            <h3>Scattered notes</h3>
-            <p>Your ideas live in 10 different apps, none of them connected.</p>
-          </div>
-          <div class="note-card">
-            <img src="./images/Bookmarks.png" alt="This is a bookmark" />
-            <h3>Bookmark overload</h3>
-            <p>Hundreds of saved links you'll never revisit or remember.</p>
-          </div>
-          <div class="note-card">
-            <img src="./images/Brain.png" alt="This is a Brain" />
-            <h3>No idea connections</h3>
-            <p>
-              Insights stay isolated, never building into bigger understanding.
-            </p>
-          </div>
-          <div class="note-card">
-            <img src="./images/Info.png" alt="This is a vector" />
-            <h3>Forgetting what you learned</h3>
-            <p>Knowledge fades because there's no system to retain it.</p>
-          </div>
-        </div>
-      </section>
+      </div>
+    </section>
 
-      <section class="brain-section">
-        <div class="brain-img-container">
-          <img src="./images/knowledge.png" alt="This is a brain image" />
-        </div>
-        <div class="brain-discription">
-          <h6>The Solution</h6>
-          <h2 class="title">Your second brain, structured by design.</h2>
-          <p class="details">
-            Personal Knowledge Vault isn't another note-taking app. It's a
-            thinking environment where every note, link, and summary becomes
-            part of an interconnected web of understanding.
-          </p>
-          <ul class="checklist-menu">
-            <li>
-              <a href=""
-                ><img
-                  src="./images/CheckCircle.png"
-                  alt="This is a checklist icon"
-                />Capture ideas with structure built-in from day one</a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./images/CheckCircle.png"
-                  alt="This is a checklist icon"
-                />Connect related concepts automatically as you write</a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./images/CheckCircle.png"
-                  alt="This is a checklist icon"
-                />Build lasting knowledge through reflection prompts</a
-              >
-            </li>
-            <li>
-              <a href=""
-                ><img
-                  src="./images/CheckCircle.png"
-                  alt="This is a checklist icon"
-                />Find anything instantly with semantic search</a
-              >
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-  </body>
+    <section class="brain-section">
+      <div class="brain-img-container">
+        <img src="./images/knowledge.png" alt="This is a brain image" />
+      </div>
+      <div class="brain-discription">
+        <h6>The Solution</h6>
+        <h2 class="title">Your second brain, structured by design.</h2>
+        <p class="details">
+          Personal Knowledge Vault isn't another note-taking app. It's a
+          thinking environment where every note, link, and summary becomes
+          part of an interconnected web of understanding.
+        </p>
+        <ul class="checklist-menu">
+          <li>
+            <a href=""><img src="./images/CheckCircle.png" alt="This is a checklist icon" />Capture ideas with structure
+              built-in from day one</a>
+          </li>
+          <li>
+            <a href=""><img src="./images/CheckCircle.png" alt="This is a checklist icon" />Connect related concepts
+              automatically as you write</a>
+          </li>
+          <li>
+            <a href=""><img src="./images/CheckCircle.png" alt="This is a checklist icon" />Build lasting knowledge
+              through reflection prompts</a>
+          </li>
+          <li>
+            <a href=""><img src="./images/CheckCircle.png" alt="This is a checklist icon" />Find anything instantly with
+              semantic search</a>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="think-section">
+      <h2 class="title">Ready to think more clearly?</h2>
+      <p class="details">
+        Join thousands of learners who are building their personal knowledge
+        vaults. Start free, no credit card required.
+      </p>
+      <button class="btn start-btn">
+        Get Early Access &nbsp;
+        <i class="fa-solid fa-arrow-right"></i>
+      </button>
+
+      <small class="details">Free during early access • No credit card needed</small>
+    </section>
+  </main>
+</body>
+
 </html>
