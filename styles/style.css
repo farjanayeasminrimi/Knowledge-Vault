@@ -22,18 +22,18 @@
   font-weight: 600;
   color: #ffffff;
 }
-.title{
-text-transform: capitalize;
-font-size: 35px;
-color: #001931;
-font-weight: 700;
+.title {
+  text-transform: capitalize;
+  font-size: 35px;
+  color: #001931;
+  font-weight: 700;
 }
-.details{
-font-size: 14px; color: #627382;
-line-height: 20px;
-margin: 15px 0px;
-font-weight: 400;
-
+.details {
+  font-size: 14px;
+  color: #627382;
+  line-height: 20px;
+  margin: 15px 0px;
+  font-weight: 400;
 }
 /* Main styles */
 
@@ -70,8 +70,8 @@ nav {
   /* height: 600px; */
   background: linear-gradient(0deg, rgb(116 92 251 / 9%), rgb(4 1 20 / 0%)),
     url(../images/hero-bg.png);
-    background-repeat: no-repeat;
-    background-size: contain
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .hero-container {
@@ -118,57 +118,55 @@ nav {
 }
 .btn-container {
   display: flex;
-  gap: 50px;
+  gap: 30px;
   justify-content: center;
   align-items: center;
 }
 
 /* Note Section Styles */
-.note-section{
+.note-section {
   width: 80%;
   margin: 0 auto;
   padding: 80px 0px;
 }
-.note-discription{
+.note-discription {
   text-align: center;
   margin-bottom: 50px;
 }
-.note-card-container{
-
+.note-card-container {
   display: flex;
   gap: 24px;
   justify-content: space-around;
   align-items: center;
 }
-.note-card{
-text-align: center;
-padding:20px 0px;
+.note-card {
+  text-align: center;
+  padding: 20px 0px;
 }
-.note-card img{
+.note-card img {
   width: 25px;
   height: 25px;
   padding: 8px;
   border-radius: 100%;
-  background-color: #F95555;
+  background-color: #f95555;
   cursor: pointer;
 }
-.note-card h3{
-text-transform: capitalize;
-font-size: 18px;
-color: #001931;
-margin: 16px 0px;
-font-weight: 700;
+.note-card h3 {
+  text-transform: capitalize;
+  font-size: 18px;
+  color: #001931;
+  margin: 16px 0px;
+  font-weight: 700;
 }
 
-.note-card p{
-color: #627382;
-font-size: 14px;
-line-height: 20px;
+.note-card p {
+  color: #627382;
+  font-size: 14px;
+  line-height: 20px;
 }
-
 
 /* Brain Section Styles */
-.brain-section{
+.brain-section {
   width: 80%;
   margin: 0 auto;
   display: flex;
@@ -178,56 +176,127 @@ line-height: 20px;
   padding-bottom: 90px;
 }
 .brain-img-container img {
-    width: 500px;
+  width: 500px;
 }
 .brain-discription {
-    padding: 0px 125px 20px 20px;
+  padding: 0px 125px 20px 20px;
 }
 .brain-discription h6 {
-    text-transform: uppercase;
-    color: #469165;
-    font-size: 15px;
-    font-weight: 700;
-    margin-bottom: 18px;
+  text-transform: uppercase;
+  color: #469165;
+  font-size: 15px;
+  font-weight: 700;
+  margin-bottom: 18px;
 }
 .checklist-menu {
-    margin-top: 28px;
+  margin-top: 28px;
 }
 .checklist-menu li {
-    list-style: none;
-    line-height: 30px;
+  list-style: none;
+  line-height: 30px;
 }
 
 .checklist-menu li a {
-    text-decoration: none;
-    font-size: 15px;
-    color: #001931;
+  text-decoration: none;
+  font-size: 15px;
+  color: #001931;
 }
 
 .checklist-menu li a img {
-    width: 13px;
-    height: 13px;
-    margin-right: 11px;
+  width: 13px;
+  height: 13px;
+  margin-right: 11px;
 }
 
 /* Think Section Styles */
 .think-section {
-    width: 80%;
-    margin: 0 auto;
-    margin-bottom: 120px;
-    background-color: #F7F6F2;
-    padding: 80px 0px;
-    text-align: center;
+  width: 80%;
+  margin: 0 auto;
+  margin-bottom: 120px;
+  background-color: #f7f6f2;
+  padding: 80px 0px;
+  text-align: center;
 }
 .think-section p {
-    margin: 23px 0px;
+  margin: 23px 0px;
 }
 
 .think-section small {
-    display: block;
-    font-size: 11px;
+  display: block;
+  font-size: 11px;
 }
 
 .think-section button {
-    box-shadow: 0px 3px 10px #46916569;
+  box-shadow: 0px 3px 10px #46916569;
+}
+
+/* Footer Styles */
+footer {
+  background-color: #001931;
+}
+#footer-section {
+  width: 80%;
+  margin: 0 auto;
+  padding: 100px 0px 20px 0px;
+}
+.footer-container {
+  display: flex;
+  gap: 50px;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 50px;
+}
+.footer-logo img {
+  width: 130px;
+}
+.footer-logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social-container span {
+  font-size: 20px;
+  color: #fffffffa;
+  font-weight: 500;
+}
+
+.social-menu {
+  display: flex;
+  gap: 5px;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 15px;
+  text-align: center;
+}
+
+.social-menu li {
+  list-style: none;
+  background-color: #fffffffa;
+  padding: 2px 5px;
+  border-radius: 100%;
+  text-align: center;
+  cursor: pointer;
+}
+
+.social-menu li a {
+  font-size: 11px;
+  color: #000000;
+}
+
+.copyright-container small {
+    color: #FAFAFA;
+    font-size: 11px;
+    font-weight: 300;
+}
+
+.copyright-container {
+    text-align: center;
+}
+
+.copyright-container hr {
+    background-color: #08315c;
+    border: 0 none;
+    height: 1px;
+    margin-bottom: 15px;
 }
